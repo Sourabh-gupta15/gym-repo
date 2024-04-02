@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    text-shadow: #555;
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('gym image.jpeg');
+    background-size: cover;
+    color: #f7f6f8;
+    text-align: center;
+    padding: 100px 0;
+}
+.gymmer{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    text-shadow: #555;
+    color: rgb(194, 188, 188);
+
+}
+.gymmer ul {
+    display: flex;
+     justify-content: center;
+     border-image: round;
+     
+
+}
+.gymmer ul li{
+    display: flex;
+    gap: 5px;
+}
+
+.uu{
+    padding: 20px;
+    margin: 20px;
+    background-color: #333;
+    text-align: center;
+    color: #ccc;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule ul li {
+    margin-bottom: 15px;
+
+}
+.schedule{
+    background-color: whitesmoke;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
